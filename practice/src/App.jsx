@@ -13,6 +13,7 @@ import Calculator from './pages/Calculator'
 import Security from './pages/Security'
 import Posts from './pages/Posts'
 import StopWatch from './components/StopWatch'
+import Responsiveness from './components/Responsiveness'
 
 //import CirclesFlexInline from './components/CirclesFlexInline'
 
@@ -31,9 +32,10 @@ function App() {
         <Route path='/Calculator' element={<Calculator/>}/>    
         <Route path='/Security' element={<Security/>}/>
         <Route path='/Posts' element={<Posts/>}/>
+        <Route path='/Responsiveness' element={<Responsiveness/>}/>
         {/* <Route path='/Posts' element={<Posts/:id>}/> */}
       </Routes>
-    
+
             
      </React.Fragment>
   )
